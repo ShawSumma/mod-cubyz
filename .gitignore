@@ -12,6 +12,8 @@ test.png
 
 /mods/*
 !/mods/cubyz
+!/mods/web49
+/mods/web49/*.wasm
 
 /assets/*
 !/assets/cubyz

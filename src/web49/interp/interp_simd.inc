@@ -1,0 +1,944 @@
+NAME(WEB49_OPCODE_V128_LOAD) {
+    web49_error("V128_LOAD\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD8X8_S) {
+    web49_error("V128_LOAD8X8_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD8X8_U) {
+    web49_error("V128_LOAD8X8_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD16X4_S) {
+    web49_error("V128_LOAD16X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD16X4_U) {
+    web49_error("V128_LOAD16X4_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD32X2_S) {
+    web49_error("V128_LOAD32X2_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD32X2_U) {
+    web49_error("V128_LOAD32X2_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD8_SPLAT) {
+    web49_error("V128_LOAD8_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD16_SPLAT) {
+    web49_error("V128_LOAD16_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD32_SPLAT) {
+    web49_error("V128_LOAD32_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD64_SPLAT) {
+    web49_error("V128_LOAD64_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_STORE) {
+    web49_error("V128_STORE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_CONST) {
+    web49_error("V128_CONST\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SHUFFLE) {
+    web49_error("I8X16_SHUFFLE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SWIZZLE) {
+    web49_error("I8X16_SWIZZLE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SPLAT) {
+    web49_error("I8X16_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_SPLAT) {
+    web49_error("I16X8_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_SPLAT) {
+    web49_error("I32X4_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_SPLAT) {
+    web49_error("I64X2_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_SPLAT) {
+    web49_error("F32X4_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_SPLAT) {
+    web49_error("F64X2_SPLAT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_EXTRACT_LANE_S) {
+    web49_error("I8X16_EXTRACT_LANE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_EXTRACT_LANE_U) {
+    web49_error("I8X16_EXTRACT_LANE_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_REPLACE_LANE) {
+    web49_error("I8X16_REPLACE_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTRACT_LANE_S) {
+    web49_error("I16X8_EXTRACT_LANE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTRACT_LANE_U) {
+    web49_error("I16X8_EXTRACT_LANE_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_REPLACE_LANE) {
+    web49_error("I16X8_REPLACE_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTRACT_LANE) {
+    web49_error("I32X4_EXTRACT_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_REPLACE_LANE) {
+    web49_error("I32X4_REPLACE_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTRACT_LANE) {
+    web49_error("I64X2_EXTRACT_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_REPLACE_LANE) {
+    web49_error("I64X2_REPLACE_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_EXTRACT_LANE) {
+    web49_error("F32X4_EXTRACT_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_REPLACE_LANE) {
+    web49_error("F32X4_REPLACE_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_EXTRACT_LANE) {
+    web49_error("F64X2_EXTRACT_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_REPLACE_LANE) {
+    web49_error("F64X2_REPLACE_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_EQ) {
+    web49_error("I8X16_EQ\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_NE) {
+    web49_error("I8X16_NE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_LT_S) {
+    web49_error("I8X16_LT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_LT_U) {
+    web49_error("I8X16_LT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_GT_S) {
+    web49_error("I8X16_GT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_GT_U) {
+    web49_error("I8X16_GT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_LE_S) {
+    web49_error("I8X16_LE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_LE_U) {
+    web49_error("I8X16_LE_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_GE_S) {
+    web49_error("I8X16_GE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_GE_U) {
+    web49_error("I8X16_GE_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EQ) {
+    web49_error("I16X8_EQ\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_NE) {
+    web49_error("I16X8_NE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_LT_S) {
+    web49_error("I16X8_LT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_LT_U) {
+    web49_error("I16X8_LT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_GT_S) {
+    web49_error("I16X8_GT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_GT_U) {
+    web49_error("I16X8_GT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_LE_S) {
+    web49_error("I16X8_LE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_LE_U) {
+    web49_error("I16X8_LE_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_GE_S) {
+    web49_error("I16X8_GE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_GE_U) {
+    web49_error("I16X8_GE_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EQ) {
+    web49_error("I32X4_EQ\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_NE) {
+    web49_error("I32X4_NE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_LT_S) {
+    web49_error("I32X4_LT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_LT_U) {
+    web49_error("I32X4_LT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_GT_S) {
+    web49_error("I32X4_GT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_GT_U) {
+    web49_error("I32X4_GT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_LE_S) {
+    web49_error("I32X4_LE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_LE_U) {
+    web49_error("I32X4_LE_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_GE_S) {
+    web49_error("I32X4_GE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_GE_U) {
+    web49_error("I32X4_GE_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_EQ) {
+    web49_error("F32X4_EQ\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_NE) {
+    web49_error("F32X4_NE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_LT) {
+    web49_error("F32X4_LT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_GT) {
+    web49_error("F32X4_GT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_LE) {
+    web49_error("F32X4_LE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_GE) {
+    web49_error("F32X4_GE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_EQ) {
+    web49_error("F64X2_EQ\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_NE) {
+    web49_error("F64X2_NE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_LT) {
+    web49_error("F64X2_LT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_GT) {
+    web49_error("F64X2_GT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_LE) {
+    web49_error("F64X2_LE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_GE) {
+    web49_error("F64X2_GE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_NOT) {
+    web49_error("V128_NOT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_AND) {
+    web49_error("V128_AND\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_ANDNOT) {
+    web49_error("V128_ANDNOT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_OR) {
+    web49_error("V128_OR\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_XOR) {
+    web49_error("V128_XOR\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_BITSELECT) {
+    web49_error("V128_BITSELECT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_ANY_TRUE) {
+    web49_error("V128_ANY_TRUE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD8_LANE) {
+    web49_error("V128_LOAD8_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD16_LANE) {
+    web49_error("V128_LOAD16_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD32_LANE) {
+    web49_error("V128_LOAD32_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD64_LANE) {
+    web49_error("V128_LOAD64_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_STORE8_LANE) {
+    web49_error("V128_STORE8_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_STORE16_LANE) {
+    web49_error("V128_STORE16_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_STORE32_LANE) {
+    web49_error("V128_STORE32_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_STORE64_LANE) {
+    web49_error("V128_STORE64_LANE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD32_ZERO) {
+    web49_error("V128_LOAD32_ZERO\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_V128_LOAD64_ZERO) {
+    web49_error("V128_LOAD64_ZERO\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_DEMOTE_F64X2_ZERO) {
+    web49_error("F32X4_DEMOTE_F64X2_ZERO\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_PROMOTE_LOW_F32X4) {
+    web49_error("F64X2_PROMOTE_LOW_F32X4\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_ABS) {
+    web49_error("I8X16_ABS\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_NEG) {
+    web49_error("I8X16_NEG\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_POPCNT) {
+    web49_error("I8X16_POPCNT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_ALL_TRUE) {
+    web49_error("I8X16_ALL_TRUE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_BITMASK) {
+    web49_error("I8X16_BITMASK\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_NARROW_I16X8_S) {
+    web49_error("I8X16_NARROW_I16X8_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_NARROW_I16X8_U) {
+    web49_error("I8X16_NARROW_I16X8_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_CEIL) {
+    web49_error("F32X4_CEIL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_FLOOR) {
+    web49_error("F32X4_FLOOR\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_TRUNC) {
+    web49_error("F32X4_TRUNC\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_NEAREST) {
+    web49_error("F32X4_NEAREST\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SHL) {
+    web49_error("I8X16_SHL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SHR_S) {
+    web49_error("I8X16_SHR_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SHR_U) {
+    web49_error("I8X16_SHR_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_ADD) {
+    web49_error("I8X16_ADD\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_ADD_SAT_S) {
+    web49_error("I8X16_ADD_SAT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_ADD_SAT_U) {
+    web49_error("I8X16_ADD_SAT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SUB) {
+    web49_error("I8X16_SUB\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SUB_SAT_S) {
+    web49_error("I8X16_SUB_SAT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_SUB_SAT_U) {
+    web49_error("I8X16_SUB_SAT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_CEIL) {
+    web49_error("F64X2_CEIL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_FLOOR) {
+    web49_error("F64X2_FLOOR\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_MIN_S) {
+    web49_error("I8X16_MIN_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_MIN_U) {
+    web49_error("I8X16_MIN_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_MAX_S) {
+    web49_error("I8X16_MAX_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_MAX_U) {
+    web49_error("I8X16_MAX_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_TRUNC) {
+    web49_error("F64X2_TRUNC\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I8X16_AVGR_U) {
+    web49_error("I8X16_AVGR_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTADD_PAIRWISE_I8X16_S) {
+    web49_error("I16X8_EXTADD_PAIRWISE_I8X16_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTADD_PAIRWISE_I8X16_U) {
+    web49_error("I16X8_EXTADD_PAIRWISE_I8X16_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTADD_PAIRWISE_I16X8_S) {
+    web49_error("I32X4_EXTADD_PAIRWISE_I16X8_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTADD_PAIRWISE_I16X8_U) {
+    web49_error("I32X4_EXTADD_PAIRWISE_I16X8_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_ABS) {
+    web49_error("I16X8_ABS\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_NEG) {
+    web49_error("I16X8_NEG\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_Q15MULR_SAT_S) {
+    web49_error("I16X8_Q15MULR_SAT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_ALL_TRUE) {
+    web49_error("I16X8_ALL_TRUE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_BITMASK) {
+    web49_error("I16X8_BITMASK\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_NARROW_I32X4_S) {
+    web49_error("I16X8_NARROW_I32X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_NARROW_I32X4_U) {
+    web49_error("I16X8_NARROW_I32X4_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTEND_LOW_I8X16_S) {
+    web49_error("I16X8_EXTEND_LOW_I8X16_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTEND_HIGH_I8X16_S) {
+    web49_error("I16X8_EXTEND_HIGH_I8X16_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTEND_LOW_I8X16_U) {
+    web49_error("I16X8_EXTEND_LOW_I8X16_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTEND_HIGH_I8X16_U) {
+    web49_error("I16X8_EXTEND_HIGH_I8X16_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_SHL) {
+    web49_error("I16X8_SHL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_SHR_S) {
+    web49_error("I16X8_SHR_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_SHR_U) {
+    web49_error("I16X8_SHR_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_ADD) {
+    web49_error("I16X8_ADD\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_ADD_SAT_S) {
+    web49_error("I16X8_ADD_SAT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_ADD_SAT_U) {
+    web49_error("I16X8_ADD_SAT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_SUB) {
+    web49_error("I16X8_SUB\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_SUB_SAT_S) {
+    web49_error("I16X8_SUB_SAT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_SUB_SAT_U) {
+    web49_error("I16X8_SUB_SAT_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_NEAREST) {
+    web49_error("F64X2_NEAREST\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_MUL) {
+    web49_error("I16X8_MUL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_MIN_S) {
+    web49_error("I16X8_MIN_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_MIN_U) {
+    web49_error("I16X8_MIN_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_MAX_S) {
+    web49_error("I16X8_MAX_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_MAX_U) {
+    web49_error("I16X8_MAX_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_AVGR_U) {
+    web49_error("I16X8_AVGR_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTMUL_LOW_I8X16_S) {
+    web49_error("I16X8_EXTMUL_LOW_I8X16_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTMUL_HIGH_I8X16_S) {
+    web49_error("I16X8_EXTMUL_HIGH_I8X16_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTMUL_LOW_I8X16_U) {
+    web49_error("I16X8_EXTMUL_LOW_I8X16_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I16X8_EXTMUL_HIGH_I8X16_U) {
+    web49_error("I16X8_EXTMUL_HIGH_I8X16_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_ABS) {
+    web49_error("I32X4_ABS\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_NEG) {
+    web49_error("I32X4_NEG\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_ALL_TRUE) {
+    web49_error("I32X4_ALL_TRUE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_BITMASK) {
+    web49_error("I32X4_BITMASK\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTEND_LOW_I16X8_S) {
+    web49_error("I32X4_EXTEND_LOW_I16X8_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTEND_HIGH_I16X8_S) {
+    web49_error("I32X4_EXTEND_HIGH_I16X8_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTEND_LOW_I16X8_U) {
+    web49_error("I32X4_EXTEND_LOW_I16X8_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTEND_HIGH_I16X8_U) {
+    web49_error("I32X4_EXTEND_HIGH_I16X8_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_SHL) {
+    web49_error("I32X4_SHL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_SHR_S) {
+    web49_error("I32X4_SHR_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_SHR_U) {
+    web49_error("I32X4_SHR_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_ADD) {
+    web49_error("I32X4_ADD\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_SUB) {
+    web49_error("I32X4_SUB\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_MUL) {
+    web49_error("I32X4_MUL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_MIN_S) {
+    web49_error("I32X4_MIN_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_MIN_U) {
+    web49_error("I32X4_MIN_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_MAX_S) {
+    web49_error("I32X4_MAX_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_MAX_U) {
+    web49_error("I32X4_MAX_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_DOT_I16X8_S) {
+    web49_error("I32X4_DOT_I16X8_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTMUL_LOW_I16X8_S) {
+    web49_error("I32X4_EXTMUL_LOW_I16X8_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTMUL_HIGH_I16X8_S) {
+    web49_error("I32X4_EXTMUL_HIGH_I16X8_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTMUL_LOW_I16X8_U) {
+    web49_error("I32X4_EXTMUL_LOW_I16X8_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_EXTMUL_HIGH_I16X8_U) {
+    web49_error("I32X4_EXTMUL_HIGH_I16X8_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_ABS) {
+    web49_error("I64X2_ABS\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_NEG) {
+    web49_error("I64X2_NEG\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_ALL_TRUE) {
+    web49_error("I64X2_ALL_TRUE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_BITMASK) {
+    web49_error("I64X2_BITMASK\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTEND_LOW_I32X4_S) {
+    web49_error("I64X2_EXTEND_LOW_I32X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTEND_HIGH_I32X4_S) {
+    web49_error("I64X2_EXTEND_HIGH_I32X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTEND_LOW_I32X4_U) {
+    web49_error("I64X2_EXTEND_LOW_I32X4_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTEND_HIGH_I32X4_U) {
+    web49_error("I64X2_EXTEND_HIGH_I32X4_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_SHL) {
+    web49_error("I64X2_SHL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_SHR_S) {
+    web49_error("I64X2_SHR_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_SHR_U) {
+    web49_error("I64X2_SHR_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_ADD) {
+    web49_error("I64X2_ADD\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_SUB) {
+    web49_error("I64X2_SUB\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_MUL) {
+    web49_error("I64X2_MUL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EQ) {
+    web49_error("I64X2_EQ\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_NE) {
+    web49_error("I64X2_NE\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_LT_S) {
+    web49_error("I64X2_LT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_GT_S) {
+    web49_error("I64X2_GT_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_LE_S) {
+    web49_error("I64X2_LE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_GE_S) {
+    web49_error("I64X2_GE_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTMUL_LOW_I32X4_S) {
+    web49_error("I64X2_EXTMUL_LOW_I32X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTMUL_HIGH_I32X4_S) {
+    web49_error("I64X2_EXTMUL_HIGH_I32X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTMUL_LOW_I32X4_U) {
+    web49_error("I64X2_EXTMUL_LOW_I32X4_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I64X2_EXTMUL_HIGH_I32X4_U) {
+    web49_error("I64X2_EXTMUL_HIGH_I32X4_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_ABS) {
+    web49_error("F32X4_ABS\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_NEG) {
+    web49_error("F32X4_NEG\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_SQRT) {
+    web49_error("F32X4_SQRT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_ADD) {
+    web49_error("F32X4_ADD\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_SUB) {
+    web49_error("F32X4_SUB\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_MUL) {
+    web49_error("F32X4_MUL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_DIV) {
+    web49_error("F32X4_DIV\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_MIN) {
+    web49_error("F32X4_MIN\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_MAX) {
+    web49_error("F32X4_MAX\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_PMIN) {
+    web49_error("F32X4_PMIN\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_PMAX) {
+    web49_error("F32X4_PMAX\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_ABS) {
+    web49_error("F64X2_ABS\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_NEG) {
+    web49_error("F64X2_NEG\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_SQRT) {
+    web49_error("F64X2_SQRT\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_ADD) {
+    web49_error("F64X2_ADD\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_SUB) {
+    web49_error("F64X2_SUB\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_MUL) {
+    web49_error("F64X2_MUL\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_DIV) {
+    web49_error("F64X2_DIV\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_MIN) {
+    web49_error("F64X2_MIN\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_MAX) {
+    web49_error("F64X2_MAX\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_PMIN) {
+    web49_error("F64X2_PMIN\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_PMAX) {
+    web49_error("F64X2_PMAX\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_TRUNC_SAT_F32X4_S) {
+    web49_error("I32X4_TRUNC_SAT_F32X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_TRUNC_SAT_F32X4_U) {
+    web49_error("I32X4_TRUNC_SAT_F32X4_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_CONVERT_I32X4_S) {
+    web49_error("F32X4_CONVERT_I32X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F32X4_CONVERT_I32X4_U) {
+    web49_error("F32X4_CONVERT_I32X4_U\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_TRUNC_SAT_F64X2_S_ZERO) {
+    web49_error("I32X4_TRUNC_SAT_F64X2_S_ZERO\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_I32X4_TRUNC_SAT_F64X2_U_ZERO) {
+    web49_error("I32X4_TRUNC_SAT_F64X2_U_ZERO\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_CONVERT_LOW_I32X4_S) {
+    web49_error("F64X2_CONVERT_LOW_I32X4_S\n");
+    NEXT();
+}
+NAME(WEB49_OPCODE_F64X2_CONVERT_LOW_I32X4_U) {
+    web49_error("F64X2_CONVERT_LOW_I32X4_U\n");
+    NEXT();
+}

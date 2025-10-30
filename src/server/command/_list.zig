@@ -6,6 +6,8 @@ pub const kill = @import("kill.zig");
 pub const particles = @import("particles.zig");
 pub const time = @import("time.zig");
 pub const tp = @import("tp.zig");
+pub const mods = @import("mods.zig");
+pub const call = @import("call.zig");
 
 pub const undo = @import("worldedit/undo.zig");
 pub const redo = @import("worldedit/redo.zig");

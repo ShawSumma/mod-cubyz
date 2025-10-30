@@ -24,4 +24,12 @@ fi
 echo "Cubyz successfully built!"
 echo "Launching Cubyz."
 
+set -e
+
+for i in mods/web49/*.c; do
+	zig cc --target=wasm32-wasi $i -o ${i%.c}.wasm -nostdlib -nostdinc -Wl,--no-entry -O3	
+done
+
 ./zig-out/bin/Cubyz
+
+

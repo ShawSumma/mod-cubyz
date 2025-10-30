@@ -195,6 +195,25 @@ pub fn build(b: *std.Build) !void {
 		//.sanitize_thread = true,
 		.use_llvm = true,
 	});
+
+	exe.addIncludePath(b.path("src/web49"));
+	exe.addCSourceFiles(.{
+		.root = b.path("src/web49"),
+		.files = &.{
+			"interp/interp.c",
+			"opt/tee.c",
+			"opt/tree.c",
+			"ast.c",
+			"io.c",
+			"lib.c",
+			"tables.c",
+			"read_bin.c",
+			// "read_wat.c",
+			// "write_bin.c",
+			// "write_wat.c",
+		},
+	});
+
 	exe.root_module.addOptions("build_options", options);
 	exe.root_module.addImport("main", mainModule);
 	try addModFeatures(b, exe);

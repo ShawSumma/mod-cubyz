@@ -17,6 +17,7 @@ pub const itemdrop = @import("itemdrop.zig");
 pub const items = @import("items.zig");
 pub const migrations = @import("migrations.zig");
 pub const models = @import("models.zig");
+pub const mods = @import("mods.zig");
 pub const network = @import("network.zig");
 pub const physics = @import("physics.zig");
 pub const random = @import("random.zig");
@@ -567,6 +568,9 @@ pub fn main() void { // MARK: main()
 	entity.ClientEntityManager.init();
 	defer entity.ClientEntityManager.deinit();
 
+	mods.init();
+	defer mods.deinit();
+	
 	gui.init();
 	defer gui.deinit();
 
